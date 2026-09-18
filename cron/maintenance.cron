@@ -1,0 +1,2 @@
+# Example: daily non-destructive maintenance check at 03:30
+30 3 * * * /usr/local/sbin/maintenance-check.sh >> /var/log/vps-maintenance.log 2>&1

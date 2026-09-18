@@ -1,0 +1,7 @@
+[Unit]
+Description=VPS maintenance check
+After=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/sbin/maintenance-check.sh
